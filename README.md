@@ -2,7 +2,7 @@
 The Data Foundation Framework Accelerator uses [AWS CDK](https://github.com/aws/aws-cdk/) to deploy the architecture. It consists of a secure data lake built on S3, augmented with security through KMS and IAM, and fine-grained data governance through Glue and Lake Formation. Once deployed, this data foundation allows a functional data system to be built on top of it, with the flexibility to customize the system to the customer’s needs. 
 
 ## Description
-The Data Foundation asset builds the foundational components of a data system, following published AWS best practices.
+The Data Foundation asset builds the foundational components of a data system, following published AWS best practices..
 
 - A customer-managed key (CMK) is created in **KMS** to encrypt the data lake buckets.
 - In **S3**, three data lake buckets are created, with server access logs written to a fourth bucket. Furthermore, a fifth bucket is created for use with Athena.
